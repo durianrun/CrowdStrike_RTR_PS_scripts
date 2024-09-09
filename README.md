@@ -14,7 +14,7 @@ You can execute these scripts using the `runscript` command in an established RT
 
 Example:
 ```
-runscript -CloudFile=Copy-FileRecursive.ps1 -Timeout=180 -CommandLine="-Path c:\users\c012345\AppData -FileMask *txt -Depth 2 -Destination c:\test" -Confirm
+runscript -CloudFile=Copy-FileRecursive.ps1 -Timeout=180 -CommandLine="-Path c:\users\jsmith\AppData -FileMask *txt -Depth 2 -Destination c:\test" -Confirm
 ```
 
 ## Gotchas
